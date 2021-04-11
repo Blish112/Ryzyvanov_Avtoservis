@@ -1,0 +1,91 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Blish\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sqlite3
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\Blish\AppData\Local\Microsoft\WindowsApps;C:\Users\Blish\AppData\Local\Microsoft\WindowsApps\python3.8.exe;C:\Users\Blish\AppData\Local\Microsoft\WindowsApps;C:\Users\Blish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Blish\.dotnet\tools;C:\php;C:\Users\Blish\AppData\Roaming\Composer\vendor\bin;C:\Users\Blish\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\Blish\AppData\Local\Yarn\Cache\v6\npm-asar-0.11.0-b926e792c315f8c048c43371e325b09c97a76464-integrity\node_modules\asar\.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "simple-desktop-app-electronjs1",
+    "productName": "simple-desktop-app-electronjs1",
+    "version": "1.0.0",
+    "description": "My Electron application description",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make",
+      "publish": "electron-forge publish",
+      "lint": "eslint src --color"
+    },
+    "keywords": [],
+    "author": "Blish",
+    "license": "MIT",
+    "config": {
+      "forge": {
+        "make_targets": {
+          "win32": [
+            "squirrel"
+          ],
+          "darwin": [
+            "zip"
+          ],
+          "linux": [
+            "deb",
+            "rpm"
+          ]
+        },
+        "electronPackagerConfig": {
+          "packageManager": "npm"
+        },
+        "electronWinstallerConfig": {
+          "name": "simple_desktop_app_electronjs1"
+        },
+        "electronInstallerDebian": {},
+        "electronInstallerRedhat": {},
+        "github_repository": {
+          "owner": "",
+          "name": ""
+        },
+        "windowsStoreConfig": {
+          "packageName": "",
+          "name": "simpledesktopappelectronjs1"
+        }
+      }
+    },
+    "dependencies": {
+      "bootstrap": "^4.6.0",
+      "electron-compile": "^6.4.4",
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "devDependencies": {
+      "babel-plugin-transform-async-to-generator": "^6.24.1",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "electron-forge": "^5.2.4",
+      "electron-prebuilt-compile": "8.2.0",
+      "eslint": "^3.19.0",
+      "eslint-config-airbnb": "^15.1.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.23.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
